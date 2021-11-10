@@ -1,0 +1,353 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.carousel-caption{
+   margin-bottom:220px;
+
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.carousel-caption p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    background-color: crimson;
+    padding: 10px 30px;
+    display:inline-block;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.carousel-caption a:hover{
+    background-color:#4a47a3 ;
+    
+}
+
+.carousel-caption span {
+    color: crimson;
+}
+
+.navbar-nav a{
+    font-family:"Roboto Cn", sans-serif;
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand{
+    color:crimson;
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: #4a47a3;
+    
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light{
+    color:crimson; 
+    background-color: #000;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: crimson;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#4a47a3;
+}
+
+.navbar-nav {
+    columns: #fff;
+    text-align: center;
+}
+
+.nav-link{
+    padding: 2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus{
+    color: #fff !important;
+}
+
+.w-100{
+    height:100vh; 
+}
+
+/*bus service styling -busservice.html */
+
+#bus {
+    background-color:#1e212d;
+    padding: 158px 0px;
+}
+
+#bus h1 {
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom:5px;
+    text-align: center;
+    color: #fff; 
+}
+
+.titile{
+    text-align: center;
+    padding:  25px 0px;
+}
+
+.title p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px #0a043c;
+}
+
+.card {
+    margin: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:blue;
+}
+
+.card-body a{
+    background-color: crimson;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top:auto;
+    font-weight: bold;
+    
+}
+
+.card-body a:hover{
+    color: #0a043c;
+    text-decoration: none;
+}
+/*bus service styling - busservice.html */
+
+.contact {
+    padding: 30px 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact h5 {
+    font-size: 20;
+    color:crimson;
+}
+
+/*social media icons */
+.icon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon ul li {
+    display: inline-block ;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin:  auto 50px;
+    box-shadow: 3px 3px 10px #1e212d,
+             -4px -4px 10px #aeaeae; 
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: #333;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 25px ;
+}
+
+.icon ul li:nth-child(1):hover {
+    color: #eee;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.icon ul li:nth-child(2):hover {
+    color: #eee;
+    border-radius: 50%;
+    background-color:#c13584;
+}
+
+.icon ul li:nth-child(3):hover {
+    color: #eee;
+    border-radius: 50%;
+    background-color: #00acee;
+}
+/* social media icons ends*/
+
+/* ticket pricing list starts */
+.pricing-area{
+  margin-top: 25px;
+}
+
+.single-pricing {
+    position: relative;
+    text-align: center;
+    background-color: #262626;
+    color: #fff;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.head-text {
+    background-color: transparent;
+    border-bottom: 0;
+    padding: 15px 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.head-text h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.price-area .price-area span {
+      font-weight: 600;        
+}
+
+.price-area {
+    position: relative;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.price-area span.duration {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    text-align: center;
+    color:crimson;
+    letter-spacing: 1px;
+    margin: 20px 0 0 3px;
+}
+
+.price-area:after, .feature-area{
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-area ul {
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+}
+
+.feature-area li{
+    padding: 6px 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-area {
+    padding: 15px 30px;
+}
+
+.btn-area a{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline:0;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 22px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+}
+.btn-area a:hover{
+    background-color:#4a47a3;
+}
+
+
+/*Unibus main map */
+.map-main{
+    padding-bottom:100px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Other maps */
+.map {
+    padding-top: 50px;
+    text-align: center; 
+}
+
+
+/*navigation bar responsiveness */
+
+@media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .navbar-toggler{
+        padding:1px 5px; 
+        font-size: 18px;
+        line-height: 0,3;
+        background:#fff;
+    }
+}
+
+/*tickets pricing responsiveness */
+
+@media only screen and (max-width:767px){
+    .head-text h3 {
+        font-size:20px;
+    }
+
+    .single-pricing{
+        margin-bottom:30px; 
+    }
+}
+
+  
